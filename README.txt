@@ -24,7 +24,8 @@ There are 4 steps in compiling a latex document
   3. Running the .bat file which makes the file for compilation and compiles
   4. Return the files and "clean up" the non-needed files
 
-
+NOTE my .vimrc code is in another repository. The function that compiles the code
+is called CompileTex
 ==================================================================================
 Special inputs
 
@@ -47,7 +48,7 @@ example, letters different specification and needs (ex. address' signatures),
 and don't need things like thmtools or longtable. Thus, I will eventually create
 a template suiting this purpose. The templates I want to create are:
 
- - ArticleTemplate
+ - Template
  - LetterTemplate
  - BeamerTemplate
 
