@@ -1,0 +1,45 @@
+This is LuaTeX, Version 1.07.0 (MiKTeX 2.9.6630 64-bit) 
+ restricted system commands enabled.
+**(./290Waiver.tex
+LaTeX2e <2017-04-15>
+(using cache: C:/Users/Chiarandini/AppData/Local/MiKTeX/2.9/luatex-cache/generi
+c)
+luaotfload | main : initialization completed in 0.641 seconds
+Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
+("C:/Program Files/MiKTeX 2.9/tex/latex/base/letter.cls"
+Document Class: letter 2014/09/29 v1.2z Standard LaTeX document class
+("C:/Program Files/MiKTeX 2.9/tex/latex/base/size12.clo"(load luc: C:/Users/Chi
+arandini/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/otl/lmroman12-regu
+lar.luc))) ("C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty"
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty"
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/hobsub-generic.sty"
+(C:/Program Files/MiKTeX 2.9/scripts/oberdiek/oberdiek.luatex.lua)))
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/keyval.sty")
+("C:/Program Files/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty")
+("C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/auxhook.sty")
+("C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty")
+("C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/pd1enc.def")
+("C:/Program Files/MiKTeX 2.9/tex/latex/00miktex/hyperref.cfg")
+(C:/Users/Chiarandini/AppData/Roaming/MiKTeX/2.9/tex/latex/url/url.sty))
+("C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/hluatex.def"
+("C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/rerunfilecheck.sty"))
+("C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.sty"
+("C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.cfg"))
+(C:/Users/Chiarandini/AppData/Roaming/MiKTeX/2.9/tex/latex/blindtext/blindtext.
+sty ("C:/Program Files/MiKTeX 2.9/tex/latex/tools/xspace.sty"))
+(/tmp/290Waiver.aux)
+("C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/nameref.sty"
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/gettitlestring.sty"))
+(/tmp/290Waiver.out) (/tmp/290Waiver.out)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+[1{C:/Users/Chiarandini/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(/tmp/290Waiver.aux))
+ 350 words of node memory still in use:
+   2 hlist, 1 vlist, 1 rule, 2 glue, 3 attribute, 44 glue_spec, 3 attribute_lis
+t, 1 write nodes
+   avail lists: 2:66,3:24,4:13,5:62,6:9,7:850,8:9,9:37,10:10,11:42
+<c:/program files/miktex 2.9/fonts/opentype/public/lm/lmroman12-regular.otf>
+Output written on 290Waiver.pdf (1 page, 10640 bytes).
+SyncTeX written on 290Waiver.synctex.gz.
+Transcript written on 290Waiver.log.
