@@ -54,3 +54,13 @@ a template suiting this purpose. The templates I want to create are:
 
 
 
+==================================================================================
+micro Templates
+
+I also intented to implement micro-templates - not every file needs packages relating
+to math symbols. I want to eventually create the following mini-templates:
+
+ - microMathTemplate
+ - microProgTemplate
+
+

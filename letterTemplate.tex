@@ -3,8 +3,6 @@
 %\author{Nathanael Chwojko-Srawley}
 %\date{}
 \usepackage{inputenc}         % Used to compile any UTF-8 Character
-\usepackage{amsmath, amssymb} % Used to write better mathematical expressions (ex. \mathbb{R})
-\usepackage{amsthm}           % Used to create theorem enviroments.
 \usepackage{graphicx}         % Let's you use images in LaTeX; ex the \includegraphics command.
 \usepackage{float}            % package with ``H'' for figures and tables, ex. Images, tables, etc
 %\usepackage{subcaption}      % More options with sub-captions.
@@ -16,13 +14,11 @@
 %\usepackage{multirow}        % for multiple rows
 \usepackage{microtype}        % makes nice text. Fixes some under-/over- filled box problems.
 %\usepackage{fancyvrb}        % Let's you write code (different style than listings).
-\usepackage{tcolorbox} 	      % Makes nice boxes for thms, cor, prop, or anything else.
 %\usepackage{enumitem}        % More flexibility on enumeration (don't know much).
 \usepackage{xcolor}           % Colour text.
 \usepackage{wrapfig}          % To wrap text around figure
 \usepackage{listings}         % Create nice colour code blocks (customized in preamble)
 \usepackage{biblatex}
-\usepackage{thmtools}         % Customize theorem environment (in preamble).
 \usepackage{marvosym}         % Provide ``basic'' symbols (hazard, religious, smiley face etc.)
 %\usepackage[english]{babel}  % If I want to blindtext in english.
 \usepackage{blindtext}
@@ -41,59 +37,6 @@
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
 \definecolor{mauve}{rgb}{0.58,0,0.82}
-
-%Theorems, propositions, Corollaries, Definitions
-\tcbuselibrary{theorems}
-\newtcbtheorem[number within=section]{thm}{Theorem}%
-{colback=green!5,colframe=green!35!black,fonttitle=\bfseries}{th}
-\newtcbtheorem[number within=section]{defn}{Definition}%
-{colback=red!5,colframe=red!35!black,fonttitle=\bfseries}{df}
-\newtcbtheorem[number within=section]{prop}{Proposition}%
-{colback=white!5,colframe=white!35!black,fonttitle=\bfseries}{pr}
-\newtcbtheorem[number within=section]{cor}{Corollary}%
-{colback=blue!5,colframe=blue!35!black,fonttitle=\bfseries}{co}
-
-
-
-% customize "lstlisting" environment preferences
-\lstset{frame=tb,
-  language=Java,
-  aboveskip=3mm,
-  belowskip=3mm,
-  showstringspaces=false,
-  columns=flexible,
-  basicstyle={\small\ttfamily},
-  numbers=none,
-  numberstyle=\tiny\color{gray},
-  keywordstyle=\color{blue},
-  commentstyle=\color{dkgreen},
-  stringstyle=\color{mauve},
-  breaklines=true,
-  breakatwhitespace=true
-  }
-
-
-%Example and solution environments customization.
-\declaretheoremstyle[
-spaceabove=6pt, spacebelow=6pt,
-headfont=\normalfont\bfseries,
-notefont=\mdseries, notebraces={(}{)},
-bodyfont=\normalfont,
-postheadspace=1em,
-numberwithin=section
-]{exstyle}
-\declaretheoremstyle[
-spaceabove=6pt, spacebelow=6pt,
-headfont=\normalfont\bfseries,
-notefont=\mdseries, notebraces={(}{)},
-bodyfont=\normalfont,
-postheadspace=1em,
-headpunct={},
-qed=$\blacktriangledown$,
-numbered=no
-]{solstyle}
-\declaretheorem[style=exstyle]{example}
-\declaretheorem[style=solstyle]{solution}
 
 \begin{document}
 

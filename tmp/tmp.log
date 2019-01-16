@@ -1,45 +1,133 @@
 This is LuaTeX, Version 1.07.0 (MiKTeX 2.9.6630 64-bit) 
  restricted system commands enabled.
-**(./290Waiver.tex
+**(./resume.tex
 LaTeX2e <2017-04-15>
 (using cache: C:/Users/Chiarandini/AppData/Local/MiKTeX/2.9/luatex-cache/generi
 c)
-luaotfload | main : initialization completed in 0.641 seconds
+luaotfload | main : initialization completed in 1.053 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
-("C:/Program Files/MiKTeX 2.9/tex/latex/base/letter.cls"
-Document Class: letter 2014/09/29 v1.2z Standard LaTeX document class
-("C:/Program Files/MiKTeX 2.9/tex/latex/base/size12.clo"(load luc: C:/Users/Chi
-arandini/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/otl/lmroman12-regu
-lar.luc))) ("C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty"
+("C:/Program Files/MiKTeX 2.9/tex/latex/base/article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:/Program Files/MiKTeX 2.9/tex/latex/base/size10.clo"(load luc: C:/Users/Chi
+arandini/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/otl/lmroman10-regu
+lar.luc)))
+(C:/Users/Chiarandini/AppData/Roaming/MiKTeX/2.9/tex/latex/marvosym/marvosym.st
+y) ("C:/Program Files/MiKTeX 2.9/tex/xelatex/xunicode/xunicode.sty"
+
+! LaTeX Error: *** this package currently works only with XeTeX ***
+ You are not using XeTeX, so we are exiting cleanly!
+ Continuing may lead to 'unavailable font metrics' errors!
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113 ...dcsname\relax\expandafter\notXeTeXformat\fi
+                                                  
+) ("C:/Program Files/MiKTeX 2.9/tex/latex/xltxtra/xltxtra.sty"
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty")
+
+Package xltxtra Warning: 
+ XLTXTRA IS TO BE USED ONLY UNDER XETEX. LOAD FONTSPEC DIRECTLY, INSTEAD.
+ ABORTING LOADING.
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/fontspec/fontspec.sty"
+(C:/Users/Chiarandini/AppData/Roaming/MiKTeX/2.9/tex/latex/l3packages/xparse/xp
+arse.sty
+(C:/Users/Chiarandini/AppData/Roaming/MiKTeX/2.9/tex/latex/l3kernel/expl3.sty
+(C:/Users/Chiarandini/AppData/Roaming/MiKTeX/2.9/tex/latex/l3kernel/expl3-code.
+tex)
+(C:/Users/Chiarandini/AppData/Roaming/MiKTeX/2.9/tex/latex/l3kernel/l3pdfmode.d
+ef))) ("C:/Program Files/MiKTeX 2.9/tex/latex/fontspec/fontspec-luatex.sty"
+("C:/Program Files/MiKTeX 2.9/tex/latex/base/fontenc.sty"
+("C:/Program Files/MiKTeX 2.9/tex/latex/base/tuenc.def"))
+("C:/Program Files/MiKTeX 2.9/tex/latex/fontspec/fontspec.cfg")(load luc: C:/Us
+ers/Chiarandini/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/otl/lmroman
+10-bold.luc)(load luc: C:/Users/Chiarandini/AppData/Local/MiKTeX/2.9/luatex-cac
+he/generic/fonts/otl/lmroman10-italic.luc))))
+(C:/Users/Chiarandini/AppData/Roaming/MiKTeX/2.9/tex/latex/url/url.sty)
+("C:/Program Files/MiKTeX 2.9/tex/latex/ltxmisc/parskip.sty")
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/color.sty"
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg")
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics-def/luatex.def"))
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphicx.sty"
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/keyval.sty")
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphics.sty"
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/trig.sty")
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg")))
+(C:/Users/Chiarandini/AppData/Roaming/MiKTeX/2.9/tex/latex/xcolor/xcolor.sty
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg")
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/dvipsnam.def"))
+(C:/Users/Chiarandini/AppData/Roaming/MiKTeX/2.9/tex/latex/layaureo/layaureo.st
+y ("C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.sty"
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty")
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifvtex.sty")
+("C:/Program Files/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty")
+("C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.cfg"))
+("C:/Program Files/MiKTeX 2.9/tex/latex/tools/calc.sty"))
+(C:/Users/Chiarandini/AppData/Roaming/MiKTeX/2.9/tex/latex/titlesec/titlesec.st
+y) ("C:/Program Files/MiKTeX 2.9/tex/latex/tools/array.sty")
+("C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty"
 ("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty"
 ("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/hobsub-generic.sty"
 (C:/Program Files/MiKTeX 2.9/scripts/oberdiek/oberdiek.luatex.lua)))
-("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/keyval.sty")
-("C:/Program Files/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty")
 ("C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/auxhook.sty")
 ("C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty")
 ("C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/pd1enc.def")
-("C:/Program Files/MiKTeX 2.9/tex/latex/00miktex/hyperref.cfg")
-(C:/Users/Chiarandini/AppData/Roaming/MiKTeX/2.9/tex/latex/url/url.sty))
+("C:/Program Files/MiKTeX 2.9/tex/latex/00miktex/hyperref.cfg"))
 ("C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/hluatex.def"
 ("C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/rerunfilecheck.sty"))
-("C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.sty"
-("C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.cfg"))
-(C:/Users/Chiarandini/AppData/Roaming/MiKTeX/2.9/tex/latex/blindtext/blindtext.
-sty ("C:/Program Files/MiKTeX 2.9/tex/latex/tools/xspace.sty"))
-(/tmp/290Waiver.aux)
-("C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/nameref.sty"
-("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/gettitlestring.sty"))
-(/tmp/290Waiver.out) (/tmp/290Waiver.out)
+("C:/Program Files/MiKTeX 2.9/tex/latex/tools/longtable.sty") (/tmp/resume.aux)
+
+(C:/Users/Chiarandini/AppData/Roaming/MiKTeX/2.9/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) ("C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty"
+("C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty"))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
+("C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/nameref.sty"
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/gettitlestring.sty"))
+(/tmp/resume.out) (/tmp/resume.out)(load luc: C:/Users/Chiarandini/AppData/Loca
+l/MiKTeX/2.9/luatex-cache/generic/fonts/otl/lmroman17-regular.luc)
+! Too many }'s.
+l.48 	}\bigskip\par}
+                  
+(load luc: C:/Users/Chiarandini/AppData/Local/MiKTeX/2.9/luatex-cache/generic/f
+onts/otl/lmroman12-regular.luc)(load luc: C:/Users/Chiarandini/AppData/Local/Mi
+KTeX/2.9/luatex-cache/generic/fonts/otl/lmromancaps10-regular.luc)(load luc: C:
+/Users/Chiarandini/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/otl/lmro
+man7-regular.luc)(load luc: C:/Users/Chiarandini/AppData/Local/MiKTeX/2.9/luate
+x-cache/generic/fonts/otl/lmroman5-regular.luc)(load luc: C:/Users/Chiarandini/
+AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/otl/lmroman8-regular.luc)
+Overfull \hbox (20.16031pt too wide) in paragraph at lines 66--106
+[][] 
+
+Overfull \hbox (76.84004pt too wide) in paragraph at lines 121--133
+[][] 
 [1{C:/Users/Chiarandini/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(/tmp/290Waiver.aux))
- 350 words of node memory still in use:
-   2 hlist, 1 vlist, 1 rule, 2 glue, 3 attribute, 44 glue_spec, 3 attribute_lis
+! Undefined control sequence.
+l.137  Proficient in:&  Python, Java, C, {\fb
+                                            \LaTeX} \textsc{vba}, Excel, Wor...
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--144
+
+[2] (/tmp/resume.aux))
+(\end occurred when \ifx on line 99 was incomplete)
+(see the transcript file for additional information)
+ 463 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 4 attribute, 64 glue_spec, 4 attribute_lis
 t, 1 write nodes
-   avail lists: 2:66,3:24,4:13,5:62,6:9,7:850,8:9,9:37,10:10,11:42
-<c:/program files/miktex 2.9/fonts/opentype/public/lm/lmroman12-regular.otf>
-Output written on 290Waiver.pdf (1 page, 10640 bytes).
-SyncTeX written on 290Waiver.synctex.gz.
-Transcript written on 290Waiver.log.
+   avail lists: 2:558,3:80,4:32,5:181,6:22,7:3446,8:96,9:188,10:21,11:256
+<c:/program files/miktex 2.9/fonts/opentype/public/lm/lmroman10-bold.otf><c:/pr
+ogram files/miktex 2.9/fonts/opentype/public/lm/lmroman7-regular.otf><c:/progra
+m files/miktex 2.9/fonts/opentype/public/lm/lmroman8-regular.otf><c:/program fi
+les/miktex 2.9/fonts/opentype/public/lm/lmroman10-italic.otf><c:/program files/
+miktex 2.9/fonts/opentype/public/lm/lmroman10-regular.otf><c:/program files/mik
+tex 2.9/fonts/opentype/public/lm/lmromancaps10-regular.otf><c:/program files/mi
+ktex 2.9/fonts/opentype/public/lm/lmroman17-regular.otf><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on resume.pdf (2 pages, 56190 bytes).
+SyncTeX written on resume.synctex.gz.
+Transcript written on resume.log.

@@ -1,6 +1,6 @@
 %\documentclass{article}
 %\title{<++>}
-%\author{Nathanael Chwojko-Srawley}
+\author{Nathanael Chwojko-Srawley}
 %\date{}
 \usepackage{inputenc}         % Used to compile any UTF-8 Character
 \usepackage{amsmath, amssymb} % Used to write better mathematical expressions (ex. \mathbb{R})
@@ -23,20 +23,17 @@
 \usepackage{listings}         % Create nice colour code blocks (customized in preamble)
 \usepackage{biblatex}
 \usepackage{thmtools}         % Customize theorem environment (in preamble).
-\usepackage{marvosym}         % Provide ``basic'' symbols (hazard, religious, smiley face etc.)
+%\usepackage{marvosym}        % Provide ``basic'' symbols (hazard, religious, smiley face etc.)
+\usepackage{array}            % \begin{table}{>{\em}c c} -> 1st column italic (bfseries for bold)
 %\usepackage[english]{babel}  % If I want to blindtext in english.
 \usepackage{blindtext}
 \usepackage[a4paper, total={6in, 8in}]{geometry}
 %\bibliography{mybasictex}
-%\bibliographystyle{ieeetr} %ieeetr, apalike, mlalike.
+%\bibliographystyle{ieeetr}   %ieeetr, apalike, mlalike.
 %Note that if you want to enumerate with custom or no labels, do
 %\begin{enumerate}[label={HERE}]
 \addbibresource{universal.bib}
 
-%\sisetup{
-%    round-mode = places, %Rounds numbers
-%    round-precision = 2  % to 2 places
-%}
 
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
@@ -46,6 +43,8 @@
 \tcbuselibrary{theorems}
 \newtcbtheorem[number within=section]{thm}{Theorem}%
 {colback=green!5,colframe=green!35!black,fonttitle=\bfseries}{th}
+\newtcbtheorem[number within=section]{lem}{Lemma}%
+{colback=black!5,colframe=black!35!black,fonttitle=\bfseries}{th}
 \newtcbtheorem[number within=section]{defn}{Definition}%
 {colback=red!5,colframe=red!35!black,fonttitle=\bfseries}{df}
 \newtcbtheorem[number within=section]{prop}{Proposition}%
@@ -53,7 +52,79 @@
 \newtcbtheorem[number within=section]{cor}{Corollary}%
 {colback=blue!5,colframe=blue!35!black,fonttitle=\bfseries}{co}
 
+\declaretheoremstyle[
+spaceabove=6pt, spacebelow=6pt,
+headfont=\normalfont\bfseries,
+notefont=\mdseries, notebraces={(}{)},
+bodyfont=\normalfont,
+postheadspace=1em,
+numberwithin=section
+]{exstyle}
 
+\declaretheoremstyle[
+spaceabove=6pt, spacebelow=6pt,
+headfont=\normalfont\bfseries,
+notefont=\mdseries, notebraces={(}{)},
+bodyfont=\normalfont,
+postheadspace=1em,
+headpunct={},
+qed=$\blacktriangledown$,
+numbered=no
+]{solstyle}
+
+\declaretheoremstyle[
+spaceabove=6pt, spacebelow=6pt,
+headfont=\normalfont\bfseries,
+notefont=\mdseries, notebraces={(}{)},
+bodyfont=\normalfont,
+postheadspace=1em,
+headpunct={},
+numbered=no
+]{questyle}
+
+\declaretheorem[style=exstyle]{example}
+\declaretheorem[style=solstyle]{solution}
+\declaretheorem[style=questyle]{question}
+%\declaretheorem[style=solstyle]{remark} (got a ``Note'' enviroment at the bottom``)
+%\declaretheorem[style=solstyle]{intuition}
+
+% Custom Commands
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\H}{\mathbb{H}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\V}{\mathbb{V}}
+\newcommand{\sse}{\subseteq}
+\newcommand{\ttr}[1]{\textcolor{red}{#1}}
+\renewcommand{\bf}[1]{\textbf{#1}}
+% Arrows
+\newcommand{\rw}{\rightarrow}
+\newcommand{\Rw}{\Rightarrow}
+\newcommand{\lw}{\leftarrow}
+\newcommand{\Lw}{\Leftarrow}
+\newcommand{\lrw}{\leftrightarrow}
+\newcommand{\LRw}{\Leftrightarrow}
+% \emptyset
+% \underline
+% \overline
+
+% Create a command to print the sentence repeatedly.
+% Argument #1 is the number of times to repeat it.
+%\def\sator{Sator Arepo tenet opera rotas.}
+\def\sator{This is a dummy sentence that is made to still approximately a line and a bit so that
+    the user of this sentence knows about how much padding he needs.}
+\newcount\loopcounter
+\def\blindsentence#1{%
+    \loopcounter = #1
+    \loop
+        \sator\ %
+        \advance\loopcounter by -1
+        \ifnum\loopcounter > 0
+    \repeat%
+}
 
 % customize "lstlisting" environment preferences
 \lstset{frame=tb,
@@ -73,28 +144,29 @@
   }
 
 
-%Example and solution environments customization.
-\declaretheoremstyle[
-spaceabove=6pt, spacebelow=6pt,
-headfont=\normalfont\bfseries,
-notefont=\mdseries, notebraces={(}{)},
-bodyfont=\normalfont,
-postheadspace=1em,
-numberwithin=section
-]{exstyle}
-\declaretheoremstyle[
-spaceabove=6pt, spacebelow=6pt,
-headfont=\normalfont\bfseries,
-notefont=\mdseries, notebraces={(}{)},
-bodyfont=\normalfont,
-postheadspace=1em,
-headpunct={},
-qed=$\blacktriangledown$,
-numbered=no
-]{solstyle}
-\declaretheorem[style=exstyle]{example}
-\declaretheorem[style=solstyle]{solution}
 
+%Custom enviroments
+\newenvironment{boxed}
+    {\begin{center}
+    \begin{tabular}{|p{0.9\textwidth}|}
+    \hline\\
+    }
+    {
+    \\\\\hline
+    \end{tabular}
+    \end{center}
+
+    }
+ \newenvironment{note}
+ {\begin{tcolorbox}[enhanced, sharp corners, colback=white , borderline={0.2pt}{0pt}{black}]
+   \begin{quote}\textbf{Note}:
+   }{
+   \end{quote}\end{tcolorbox}}
+
+ \newenvironment{intuition}
+ {\begin{quote}\textbf{Intuition}:
+   }{
+   \end{quote}}
 \begin{document}
 
 %\maketitle
